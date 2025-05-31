@@ -2,6 +2,7 @@
 import numpy
 empresa = []
 funcionario = []
+# FUNÇÕES
 def lerNome():
   while True:
     try:
