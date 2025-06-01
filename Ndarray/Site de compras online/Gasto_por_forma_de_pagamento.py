@@ -1,4 +1,4 @@
-# MÁXIMO, MÍNIMO E MÉDIA DOS GASTOR POR FORMA DE PAGAMENTO (DÉBITO E CRÉDITO)
+# MÍNIMO, MÁXIMO E MÉDIA DOS GASTOR POR FORMA DE PAGAMENTO (DÉBITO E CRÉDITO)
 debito = dataset3[dataset3[:,3] == 0]
 credito = dataset3[dataset3[:,3] == 1]
 print(f'DADOS DOS {debito.shape[0]} CLIENTES QUE PAGARAM NO DÉBITO: ')
